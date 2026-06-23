@@ -891,7 +891,7 @@ if not ScreenGui.Parent then
 end
 
 -- Ativa a variável global para o menu aparecer (conforme seu RenderStepped final)
-_G.Fly = true
+_G.Fly = false
 
 -- ==================== FLY FUNCTION ====================
 local flying = false
